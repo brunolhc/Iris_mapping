@@ -1,6 +1,6 @@
 # Iris_mapping
 
-To use this app install the requirements and run the command ```python app.py```
+To use this app, install the requirements and run the command ```python app.py```
 
 It should be running on ```http://127.0.0.1:5000```. The initial page is shown in the figure below.
 
@@ -14,11 +14,11 @@ This app is capable of finding and map the human iris, finding the contour of a 
 
 ## 2. How to use it
 
-To use the app just upload an image of a face, prefereble frontal and with visible irisis, as it shown on the example of the app. After that just choose the task. The result can take a long time depending on the size of the image used.
+To use the app, just upload an image of a face, preferable frontal and with visible irises, as it shown on the example of the app. After that, just choose a task. The result can take a long time depending on the size of the image used. 
 
 ## 3. Expected results
 
-Each option will return the resulting images in a new window. The figures bellow shows an example of iris color mapping, Facial Contour, Face Cut and  Eye Cut tasks, in that order.
+Each option will return the resulting images in a new window. The figures below shows an example of iris color mapping, Facial Contour, Face Cut and  Eye Cut tasks, in that order.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ea78e491-17f3-41c2-b1ac-32d9bdf9b3e5" height="250" />
@@ -27,7 +27,7 @@ Each option will return the resulting images in a new window. The figures bellow
 <img src="https://github.com/user-attachments/assets/a4cd24c6-c84f-4517-8d0b-d4419ad43f70" height="250" />
 </p>
 
-Many things can influence the results of the "Iris Color Mapping" task, suck as lighting, shadows, reflactions, near closed eyes, among others. The module aims to give the exact color of each pixel of the botom half of the iris, at the end computes the percentage of color found, whichs leads to intereting results of iris with many colors, as it is shown in the image below.
+Many things can influence the results of the "Iris Color Mapping" task, suck as lighting, shadows, reflections, near closed eyes, among others. The module aims to give the exact color of each pixel of the bottom half of the iris, at the end computes the percentage of color found, which leads to interesting results of iris with many colors, as it is shown in the image below.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/8bc32135-4731-493d-96a3-fef55ebd12e7" height="450" />
